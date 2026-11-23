@@ -1,0 +1,36 @@
+# 依赖包
+node_modules/
+target/
+.mvn/wrapper/maven-wrapper.jar
+
+# 构建产物
+dist/
+build/
+out/
+*.jar
+*.war
+
+# 环境变量与本地配置
+.env
+.env.*
+*.local
+application-local.yml
+application-local.yaml
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+
+# 系统与日志
+.DS_Store
+Thumbs.db
+*.log
+logs/
+
+# 编辑器临时文件
+*.swp
+*~
